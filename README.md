@@ -32,6 +32,8 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- React Router Dom
+- Axios
 - [React](https://reactjs.org/) - JS library
 
 ## Author
