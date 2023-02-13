@@ -1,0 +1,47 @@
+.selectGroup {
+  display: flex;
+  position: relative;
+  align-items: center;
+  width: 200px;
+  cursor: pointer;
+}
+
+.select {
+  width: 100%;
+  border: none;
+  -moz-appearance: none; /* Firefox */
+  box-shadow: 0 1px 10px 0 rgba(121, 121, 121, 0.1);
+  -webkit-appearance: none; /* Safari and Chrome */
+  appearance: none;
+  font-weight: 600;
+  padding: 1.25em 1.75em;
+  outline: none;
+  font-size: 12px;
+  position: relative;
+}
+
+.selectGroup.dark {
+  color: white;
+}
+
+.selectGroup.dark > .select {
+  background-color: var(--dark-mode-elements);
+  color: white;
+}
+
+.select > option {
+  font-weight: 600;
+}
+
+.icon {
+  position: absolute;
+  pointer-events: none;
+  font-size: 12px;
+  right: 1.75em;
+}
+
+@media screen and (min-width: 800px) {
+  .select {
+    font-size: 14px;
+  }
+}

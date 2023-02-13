@@ -1,0 +1,17 @@
+.link {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--light-mode-text);
+  background-color: white;
+  font-size: 14px;
+  padding: 0.5em;
+  box-shadow: 0 1px 10px 0 rgba(121, 121, 121, 0.3);
+}
+
+.link.dark {
+  box-shadow: none;
+  background-color: var(--dark-mode-elements);
+  color: white;
+}

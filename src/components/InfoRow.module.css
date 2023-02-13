@@ -1,0 +1,9 @@
+.row {
+  display: flex;
+  gap: 5px;
+  font-size: 14px;
+}
+
+b {
+  font-weight: 600;
+}
