@@ -20,8 +20,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/dogankocadayilar/rest-countries-api)
-- Live Site URL: [Add live site URL here](https://dogankocadayilar.github.io/rest-countries-api)
+- Solution URL: [Solution URL](https://github.com/dogankocadayilar/rest-countries-api)
+- Live Site URL: [Live site URL](https://dogankocadayilar.github.io/rest-countries-api)
 
 ## My process
 
